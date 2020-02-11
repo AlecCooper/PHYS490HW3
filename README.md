@@ -28,7 +28,7 @@ You should include a json file of parameters for the program to use. A default p
 The number of training epochs
 
 ```sh
-{"display epochs":true,
+"display epochs":true,
 ```
 Choice of displaying the current epoch when in high verbosity mode
 
