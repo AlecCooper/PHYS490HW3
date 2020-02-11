@@ -23,7 +23,15 @@ python main.py /params/your_param_file.json
 You should include a json file of parameters for the program to use. A default parameter file ```param.json``` is included and is of the form:
 
 ```sh
-{"epochs":10}
+{"epochs":10,
 ```
+The number of training epochs
 
-epochs refers to the number of training epochs 
+```sh
+{"display epochs":true,
+```
+Choice of displaying the current epoch when in high verbosity mode
+
+```sh
+"learning rate":0.05
+```
