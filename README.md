@@ -20,7 +20,7 @@ python main.py /params/your_param_file.json
 
 ## Parameter file
 
-You should include a json file of parameters for the program to use. A default parameter file ```param.json``` is included and is of the form:
+You should include a json file of parameters for the program to use. Your parameter file should be of the following form. A default parameter file ```param.json``` is included.
 
 ```sh
 {"epochs":10,
