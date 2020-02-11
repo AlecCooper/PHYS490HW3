@@ -35,3 +35,4 @@ Choice of displaying the current epoch when in high verbosity mode
 ```sh
 "learning rate":0.05
 ```
+The learning rate our model uses
