@@ -15,8 +15,16 @@
 To run `main.py`, use
 
 ```sh
-python main.py /params/your_param_file.json
+python main.py /data/in.txt /params/your_param_file.json
 ```
+```sh
+/data/in.txt
+```
+The file location of our input file
+```sh
+/param.your_param_file.json
+```
+The file location of a json file of the hyperparamaters
 
 ## Parameter file
 
