@@ -37,7 +37,3 @@ Choice of displaying the current epoch when in high verbosity mode
 ```
 The learning rate our model uses
 
-```sh
-"input location":"data/in.txt"
-```
-The directiory our input data is stored
