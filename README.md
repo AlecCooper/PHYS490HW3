@@ -37,3 +37,8 @@ Choice of displaying the current epoch when in high verbosity mode
 ```
 The learning rate our model uses
 
+```sh
+"num test":500
+```
+The number of data points of set aside for testing
+
