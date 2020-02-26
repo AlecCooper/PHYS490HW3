@@ -20,7 +20,7 @@ class Data():
         data = np.loadtxt(file_location,dtype=str)
         
         # Array of boolean ising data
-        ising = np.empty((len(data),len(data[0])),dtype = np.bool)
+        ising = np.empty((len(data),len(data[0])),dtype = np.float64)
         
         # index in loop
         row = 0
@@ -34,15 +34,17 @@ class Data():
 
                 # Convert to boolean
                 if cell == "+":
-                    ising[row,col] = True
+                    ising[row,col] = 1.0
                 else:
-                    ising[row,col] = False
+                    ising[row,col] = 0.0
 
                 # increment index
                 col += 1
 
             # increment index
             row += 1
+
+        print(ising)
 
         self.data = torch.from_numpy(ising)
         #self.data.requires_grad = True

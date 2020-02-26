@@ -1,2 +1,5 @@
-{"epochs":10}
+{"epochs":10,
+    "display epoch":true,
+    "learning rate":0.05,
+    "num test":500}
 
